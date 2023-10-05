@@ -2,7 +2,7 @@
 
 ### CD
 1. No Argument<br>
-
+![Image](cd no args.png)
 2. Path to a Directory<br>
 3. Path to a File<br>
 ### LS
