@@ -12,8 +12,11 @@
    When we put a path to a file after cd command, the system's working directory did not change. The reason we got the output is because cd is a command to change directory, so if we put in a path to a non-directory location, there would be an error, and the working directory will not change. I would consider this an error because we entered a location that is not a directory to cd, and the system does not know what to do to this command. 
 ### LS
 1. **No Argument<br>**
-2. **Path to a Directory<br>**
-3. **Path to a File<br>**
+   ![Image](ls_noarg.png)<br>
+3. **Path to a Directory<br>**
+   ![Image](ls_dir.png)<br>
+5. **Path to a File<br>**
+   ![Image](ls_file.png)<br>
 ### CAT
 1. **No Argument<br>**
 2. **Path to a Directory<br>**
