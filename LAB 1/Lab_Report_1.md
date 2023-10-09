@@ -13,10 +13,13 @@
 ### LS
 1. **No Argument<br>**
    ![Image](ls_noarg.png)<br>
-3. **Path to a Directory<br>**
+   When we put no argument after ls, the working directory does not change, and the system will list all the elements in the current directory. For example, in the figure above, when we type ls while the working directory is /home, the system lists lecture1, which is the only element under /home. This is not an error, because ls will not change the working directory, and ls listed all the under working directory. 
+2. **Path to a Directory<br>**
    ![Image](ls_dir.png)<br>
-5. **Path to a File<br>**
+   When we put a path to a directory after ls command, the working directory does not change, and the system will list all the elements under the directory that was provided. For example, in the figure above, when we type ls with the path to lecture1/messages, the system lists all files in messages. This is not an error, because ls will not change the working directory, and ls listed all the under the directory we entered. 
+3. **Path to a File<br>**
    ![Image](ls_file.png)<br>
+   When we put a path to a file after ls command, the working directory does not change, and the system will list the path to the file we entered. For Example, in the figure above when we put the path to Hello.java file after ls, the system outputs the same path to Hello.java file. This is not an error, because ls will not change the working directory.
 ### CAT
 1. **No Argument<br>**
 2. **Path to a Directory<br>**
