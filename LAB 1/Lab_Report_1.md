@@ -22,5 +22,8 @@
    When we put a path to a file after ls command, the working directory does not change, and the system will list the path to the file we entered. For Example, in the figure above when we put the path to Hello.java file after ls, the system outputs the same path to Hello.java file. This is not an error, because ls will not change the working directory.
 ### CAT
 1. **No Argument<br>**
-2. **Path to a Directory<br>**
-3. **Path to a File<br>**
+   ![Image](cat_noargs.png)<br>
+3. **Path to a Directory<br>**
+   ![Image](cat_dir.png)<br>
+4. **Path to a File<br>**
+   ![Image](cat_file.png)<br>
