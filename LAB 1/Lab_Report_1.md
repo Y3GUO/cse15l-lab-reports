@@ -23,7 +23,10 @@
 ### CAT
 1. **No Argument<br>**
    ![Image](cat_noargs.png)<br>
-3. **Path to a Directory<br>**
+    When we put no argument after cat, the working directory does not change, and the system will wait for new inputs to concatenate and display. For example, in the figure above, if we enter any new characters or strings, the system will display the entered strings, but if we do not enter anything, the system will just wait for new input and need to force quit out of the command. I would not consider this as an error because the system is waiting for new input to display and the working directory does not change. 
+2. **Path to a Directory<br>**
    ![Image](cat_dir.png)<br>
-4. **Path to a File<br>**
+   If we put a path to a directory after cat command, the working directory does not change, and an error message is displayed. For example, in the figure above, when we put a path to a directory after the cat command, the system outputs "XXX; Is a directory". The system cannot concat and display directories, only files. So here we are encountering an error as a path to a directory is an invalid argument input for the command cat. 
+3. **Path to a File<br>**
    ![Image](cat_file.png)<br>
+   If we put a path to a file after cat command, the working directory does not change, and the content of the file is displayed. For example, in the figure above, when we put the path to Hello.java, the content of Hello.java is displayed. This is not an error, as the main function is achieved by putting a path to one or multiple files after the cat command.
