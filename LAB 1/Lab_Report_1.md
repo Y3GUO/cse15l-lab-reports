@@ -1,5 +1,6 @@
 ## Lab Report 1
-
+Yutong Guo<br>
+A16269813<br>
 ### CD
 1. **No Argument<br>**
    ![Image](cd_no_args.png)<br>
