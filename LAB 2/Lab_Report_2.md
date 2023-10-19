@@ -2,7 +2,7 @@
 Yutong Guo<br>
 A16269813<br>
 ### CODE
-```
+``` {java}
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
