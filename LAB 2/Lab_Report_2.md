@@ -1,7 +1,8 @@
 ## Lab Report 2
 Yutong Guo<br>
 A16269813<br>
-### CODE
+### PART 1
+CODE
 ``` {java}
 import java.io.IOException;
 import java.net.URI;
@@ -43,3 +44,6 @@ public class StringServer {
     }
 }
 ```
+![Image](ADD1.png)<br>
+To start the server, the StringServer method is called, and we start a local server. Then, in the screenshot above, we are calling the handleRequest method. The relevant argument to the methods is the URL. The relevant values is the path by the end of the URL, here our path contains ```/add-message```, so we go into the ```else if``` statement and the values is the string after ```s=```, which in this case is ```Hello World!```.
+
