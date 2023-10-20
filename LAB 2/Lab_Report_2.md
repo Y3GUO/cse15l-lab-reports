@@ -45,5 +45,5 @@ public class StringServer {
 }
 ```
 ![Image](ADD1.png)<br>
-To start the server, the StringServer method is called, and we start a local server. Then, in the screenshot above, we are calling the handleRequest method. The relevant argument to the methods is the URL. The relevant values is the path by the end of the URL, here our path contains ```/add-message```, so we go into the ```else if``` statement and the values is the string after ```s=```, which in this case is ```Hello World!```.
+To start the server, the StringServer method is called, and we start a local server. Then, in the screenshot above, we are calling the handleRequest method. The relevant argument to the methods is the URL. The relevant values is the path by the end of the URL, here our path contains ```/add-message```, so we go into the ```else if``` statement and the values is the string after ```s=```, which in this case is ```Hello World!```. The relevant value change during this command is the array list ```List<String> messages``` it was empty and after this command was run, there is one item in it, which is ```1. Hello World!```. ```\n``` was not added because we took care of that when we are returning the string.
 
