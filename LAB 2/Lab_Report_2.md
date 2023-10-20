@@ -53,5 +53,5 @@ To start the server, the StringServer method is called, and we start a local ser
    ![Image](ls_command_1.png)<br>
 2. ls ieng6 location<br>
    ![Image](ls_command_2.png)<br>
-3. login
+3. login<br>
    ![Image](login.png)<br>    
