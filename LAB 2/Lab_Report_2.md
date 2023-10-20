@@ -55,3 +55,5 @@ To start the server, the StringServer method is called, and we start a local ser
    ![Image](ls_command_2.png)<br>
 3. login<br>
    ![Image](login.png)<br>    
+### PART 3
+In weeks 2 and 3 of our lab sessions, I learned web server development and secure communications. Beforehand, I wasn't aware of how to build a simple Java-based web server, like our StringServer, I have always thought of web development as something hard to learn and intricate. But now can build simple ones myself. Additionally, I was introduced to SSH key generation via ssh-keygen. It was also interesting to see how certain files, especially those holding sensitive data, could be made accessible only through specific paths using ls, and ls in our public folder will not show. 
