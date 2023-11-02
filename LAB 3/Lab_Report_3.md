@@ -86,4 +86,4 @@ We will explore the command ```less```. Here I will explore 4 different command 
    This command line option has a very interesting interaction with the keyboard shortcut ```/[string]``` above. Remember how using the shortcut ```/[string]``` will highlight all the matching strings? Using ```-g``` command line will highlight only the string last found using search.
 
    Example 1:<br>
-   ![Image](pic6.png)<br>
+   ![Image](pic8.png)<br>
