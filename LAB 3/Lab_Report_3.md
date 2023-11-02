@@ -50,10 +50,16 @@ The reverseInPlace method in the Array methods.
 We will explore the command ```less```. Here I will explore 4 different command line options.
 1. -E <br>
    By using this command line option, ```less``` automatically exits upon reaching the end of the file. This is pretty easy to understand, here are two examples:<br>
+   
    Example 1:<br>
    ![Image](pic2.png)<br>
    Hi.txt is a file I created according to the instructions at the end of the lab, it includes only one line. Here since there is only one line in the file, using less -E will instantly exit without even showing the viewer the content of the file. So when the file is short, I would not recommend using this command line option, but I can see how it is useful when we are reading a longer file. <br>
+
    Example 2:<br>
-   ![Image](vid1.mov)<br>
-   
+   <video src="https://github.com/Y3GUO/cse15l-lab-reports/assets/122977555/2cb94841-671f-429e-8df0-49adfc0a410c" controls="controls" style="max-width: 730px;">
+   </video>
+   Here we can see that when we use less -E on a longer txt file, when we scroll to the end, we will automatically exit to the terminal without needing to press ```q```. Since the pdf does not support video, the original video can also be found using this [LINK](https://github.com/Y3GUO/cse15l-lab-reports/assets/122977555/2cb94841-671f-429e-8df0-49adfc0a410c).
+
+
+
 
