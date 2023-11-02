@@ -63,7 +63,9 @@ We will explore the command ```less```. Here I will explore 4 different command 
    By using this comman line option, ```less``` will force to open non-regular files like a directory or a device-special file.<br>
    
    Example 1:<br>
-   
+   ![Image](pic3.png)<br>
+   Hi.txt is a file I created according to the instructions at the end of the lab, it includes only one line. Using the command line option ```less -f``` on the file will give us an output that is the same as using ```less```, as shown above.<br>
 
+   Example 2:<br>
 
 
