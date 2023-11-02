@@ -79,6 +79,6 @@ We will explore the command ```less```. Here I will explore 4 different command 
    Here we are first using ```less``` on the file preface.txt in 911report directory, then when we use the keyboard shortcut ```/We```. All matching ```We``` are highlighted and our view jumps to the first occurrence of ```We```.<br>
    
    Example 2:<br>
-   
-
+   ![Image](pic7.png)<br>
+   Similarly, here we are first using ```less``` on the file preface.txt in 911report directory, then when we use the keyboard shortcut ```/Terrorist```. All matching ```Terrorist```is highlighted, in this case, there is only one occurrence, and our view jumps to the first occurrence of ```Terrorist```, as shown by the first line includes the highlighted word ```Terrorist```.<br>
    
