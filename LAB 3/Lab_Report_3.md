@@ -21,3 +21,5 @@ The reverseInPlace method in the Array methods.
     assertArrayEquals(new int[]{ 3 }, input1);
    }
    ```
+3. The symptom:
+   ![Image](pic1.png)<br>
