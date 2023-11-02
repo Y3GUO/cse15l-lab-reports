@@ -54,6 +54,6 @@ We will explore the command ```less```. Here I will explore 4 different command 
    ![Image](pic2.png)<br>
    Hi.txt is a file I created according to the instructions at the end of the lab, it includes only one line. Here since there is only one line in the file, using less -E will instantly exit without even showing the viewer the content of the file. So when the file is short, I would not recommend using this command line option, but I can see how it is useful when we are reading a longer file. <br>
    Example 2:<br>
-   
+   ![Image](vid1.mov)<br>
    
 
