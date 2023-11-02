@@ -67,5 +67,7 @@ We will explore the command ```less```. Here I will explore 4 different command 
    Hi.txt is a file I created according to the instructions at the end of the lab, it includes only one line. Using the command line option ```less -f``` on the file will give us an output that is the same as using ```less```, as shown above.<br>
 
    Example 2:<br>
-   
+   ![Image](pic4.png)<br>
+   ![Image](pic5.png)<br>
+   Here we are first using ```less``` on the directory 911report, which gives us an error: ```911report is a directory```. Then when we use ```less -f``` on the same directory 911report, the less command will be forced to run and no error will be produced, although the content read from ```less``` is an error message, I can see this being useful when we are writing bash scripts, where sometimes we do not want an error message to interrupt the run of other commands. 
 
