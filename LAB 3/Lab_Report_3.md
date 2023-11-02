@@ -59,7 +59,11 @@ We will explore the command ```less```. Here I will explore 4 different command 
    <video src="https://github.com/Y3GUO/cse15l-lab-reports/assets/122977555/2cb94841-671f-429e-8df0-49adfc0a410c" controls="controls" style="max-width: 730px;">
    </video>
    Here we can see that when we use less -E on a longer txt file, when we scroll to the end, we will automatically exit to the terminal without needing to press ```q```. Since the pdf does not support video, the original video can also be found using this [LINK](https://github.com/Y3GUO/cse15l-lab-reports/assets/122977555/2cb94841-671f-429e-8df0-49adfc0a410c).
-
+2. -f <br>
+   By using this comman line option, ```less``` will force to open non-regular files like a directory or a device-special file.<br>
+   
+   Example 1:<br>
+   
 
 
 
