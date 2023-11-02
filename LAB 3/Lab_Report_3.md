@@ -45,5 +45,5 @@ The reverseInPlace method in the Array methods.
    }
    ```
    <br>
-   
+   The original bug is because the array is dynamically changing as we are setting the second half of the array equal to their original value because we set the first part of the array equal to the second half, so when we reach the second half of the array, the data was overwritten and we lost the data of the first half of the array.
    
