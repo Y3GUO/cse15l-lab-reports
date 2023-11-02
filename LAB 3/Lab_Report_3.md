@@ -67,5 +67,5 @@ We will explore the command ```less```. Here I will explore 4 different command 
    Hi.txt is a file I created according to the instructions at the end of the lab, it includes only one line. Using the command line option ```less -f``` on the file will give us an output that is the same as using ```less```, as shown above.<br>
 
    Example 2:<br>
-
+   
 
