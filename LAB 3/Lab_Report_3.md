@@ -87,3 +87,7 @@ We will explore the command ```less```. Here I will explore 4 different command 
 
    Example 1:<br>
    ![Image](pic8.png)<br>
+   Here we are doing a similar thing as example 1 on Number 3. The only difference is that we first use ```less -g``` command, then when we use the keyboard shortcut ```/We```. The first matching ```We``` is highlighted and our view jumps to the first occurrence of ```We```.<br>
+
+   Example 2:<br>
+   
