@@ -76,4 +76,9 @@ We will explore the command ```less```. Here I will explore 4 different command 
 
    Example 1:<br>
    ![Image](pic6.png)<br>
-   Here we are first using ```less``` on the file preface.txt in 911report directory, then when we use the keyboard shortcut ```/We```. All matching ```We``` are highlighted and our view jumps to the first occurrence of ```We```.
+   Here we are first using ```less``` on the file preface.txt in 911report directory, then when we use the keyboard shortcut ```/We```. All matching ```We``` are highlighted and our view jumps to the first occurrence of ```We```.<br>
+   
+   Example 2:<br>
+   
+
+   
