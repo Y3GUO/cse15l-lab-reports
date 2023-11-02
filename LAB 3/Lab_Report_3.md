@@ -72,8 +72,8 @@ We will explore the command ```less```. Here I will explore 4 different command 
    Here we are first using ```less``` on the directory 911report, which gives us an error: ```911report is a directory```. Then when we use ```less -f``` on the same directory 911report, the less command will be forced to run and no error will be produced, although the content read from ```less``` is an error message, I can see this being useful when we are writing bash scripts, where sometimes we do not want an error message to interrupt the run of other commands. <br>
 
 3. /[string] <br>
-   ```/[string]``` is not a command line option, but it is a useful keyboard shortcut that we can use. This shortcut will search and highlight all the matching strings. <br>
+   ```/[string]``` is not a command line option, but it is a useful keyboard shortcut that we can use. This shortcut will search and highlight all the matching strings, and search forward. <br>
 
    Example 1:<br>
-   
-   
+   ![Image](pic6.png)<br>
+   Here we are first using ```less``` on the file preface.txt in 911report directory, then when we use the keyboard shortcut ```/We```. All matching ```We``` are highlighted and our view jumps to the first occurrence of ```We```.
