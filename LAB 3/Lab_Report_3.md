@@ -46,4 +46,9 @@ The reverseInPlace method in the Array methods.
    ```
    <br>
    The original bug is because the array is dynamically changing as we are setting the second half of the array equal to their original value because we set the first part of the array equal to the second half, so when we reach the second half of the array, the data was overwritten and we lost the data of the first half of the array.
+### PART 2
+We will explore the command ```less```. Here I will explore 4 different command line options.
+1. -E <br>
+   By using this command line option, ```less``` automatically exits upon reaching the end of the file. This is pretty easy to understand, here are two examples:<br>
+   Example 1:<br>
    
