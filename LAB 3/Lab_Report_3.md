@@ -115,9 +115,10 @@ We will explore the command ```less```. Here I will explore 4 different command 
    Similarly, here we are first using ```less -i``` on the file preface.txt in the 911report directory, then when we use the keyboard shortcut ```/terrorist```. All matching ```terrorist``` is highlighted ignoring case, and our view jumps to the first occurrence of ```Terrorist```, as shown by the first line includes the highlighted word ```Terrorist```.<br>
    **Source: This keyboard shortcut is found by using google search prompt "less command line options". Here is a [LINK](https://phoenixnap.com/kb/less-command-in-linux) to the website.**
 7. ```-g``` <br>
-   This command line option has a very interesting interaction with the keyboard shortcut ```/[string]``` above. Remember how using the shortcut ```/[string]``` will highlight all the matching strings? Using ```-g``` command line will highlight only the string last found using search.
+   This command line option is similar to the command above. Using ```-g``` command line will highlight only the string last found using ```/[string]``` search.
 
    Example 1:<br>
+   
    ![Image](pic8.png)<br>
    Here we are doing a similar thing as example 1 on Number 3. The only difference is that we first use ```less -g``` command, then when we use the keyboard shortcut ```/We```. The first matching ```We``` is highlighted and our view jumps to the first occurrence of ```We```.<br>
 
