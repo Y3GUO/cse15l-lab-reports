@@ -61,23 +61,38 @@ We will explore the command ```less```. Here I will explore 4 different command 
    ```
    (base) tonyguo@Yutongs-MacBook-Pro 911report % less -E preface.txt
    ```
-   Here we can see that when we use less -E on a longer txt file, when we scroll to the end, we will automatically exit to the terminal without needing to press ```q```. Since the pdf does not support video, the original video can also be found using this [LINK](https://github.com/Y3GUO/cse15l-lab-reports/assets/122977555/2cb94841-671f-429e-8df0-49adfc0a410c).<br>
+   Using this command, we can see that when we use less -E on a longer txt file, when we scroll to the end, we will automatically exit to the terminal without needing to press ```q```. Since the pdf does not support video, the original video can also be found using this [LINK](https://github.com/Y3GUO/cse15l-lab-reports/assets/122977555/2cb94841-671f-429e-8df0-49adfc0a410c).<br>
    **Source: This command line option is found by using google search prompt "less command line options". Here is a [LINK](https://phoenixnap.com/kb/less-command-in-linux) to the website.**
 3. ```-f``` <br>
-   By using this comman line option, ```less``` will force to open non-regular files like a directory or a device-special file.<br>
+   By using this command line option, ```less``` will force you to open non-regular files like a directory or a device-special file.<br>
    
    Example 1:<br>
-   ![Image](pic3.png)<br>
+   The following command:
+   ```
+   (base) tonyguo@Yutongs-MacBook-Pro technical % less -f hi.txt 
+   ```
+   Will have the following output:
+   ```
+   Yutong Guo
+   (END)
+   ```
    Hi.txt is a file I created according to the instructions at the end of the lab, it includes only one line. Using the command line option ```less -f``` on the file will give us an output that is the same as using ```less```, as shown above.<br>
 
    Example 2:<br>
-   ![Image](pic4.png)<br>
-   ![Image](pic5.png)<br>
-   Here we are first using ```less``` on the directory 911report, which gives us an error: ```911report is a directory```. Then when we use ```less -f``` on the same directory 911report, the less command will be forced to run and no error will be produced, although the content read from ```less``` is an error message, I can see this being useful when we are writing bash scripts, where sometimes we do not want an error message to interrupt the run of other commands. <br>
+   ```
+   (base) tonyguo@Yutongs-MacBook-Pro technical % less 911report 
+   911report is a directory
+   ```
+   Here we are first using ```less``` on the directory 911report, which gives us an error: ```911report is a directory```.
+   ```
+   (base) tonyguo@Yutongs-MacBook-Pro technical % less -f 911report 
+   read error  (press RETURN)
+   ```
+   Then when we use ```less -f``` on the same directory 911report, the less command will be forced to run and no error will be produced, although the content read from ```less``` is an error message, I can see this being useful when we are writing bash scripts, where sometimes we do not want an error message to interrupt the run of other commands. <br>
    **Source: This command line option is found by using google search prompt "less command line options". Here is a [LINK](https://phoenixnap.com/kb/less-command-in-linux) to the website.**
 
-4. ```/[string]``` <br>
-   ```/[string]``` is not a command line option, but it is a useful keyboard shortcut that we can use. This shortcut will search and highlight all the matching strings, and search forward. <br>
+5. ```-i``` <br>
+  By using this command line option, ```less``` will ignore case sensitivity during search.<br>
 
    Example 1:<br>
    ![Image](pic6.png)<br>
@@ -87,7 +102,7 @@ We will explore the command ```less```. Here I will explore 4 different command 
    ![Image](pic7.png)<br>
    Similarly, here we are first using ```less``` on the file preface.txt in 911report directory, then when we use the keyboard shortcut ```/Terrorist```. All matching ```Terrorist```is highlighted, in this case, there is only one occurrence, and our view jumps to the first occurrence of ```Terrorist```, as shown by the first line includes the highlighted word ```Terrorist```.<br>
    **Source: This keyboard shortcut is found by using google search prompt "less command line options". Here is a [LINK](https://phoenixnap.com/kb/less-command-in-linux) to the website.**
-5. ```-g``` <br>
+6. ```-g``` <br>
    This command line option has a very interesting interaction with the keyboard shortcut ```/[string]``` above. Remember how using the shortcut ```/[string]``` will highlight all the matching strings? Using ```-g``` command line will highlight only the string last found using search.
 
    Example 1:<br>
