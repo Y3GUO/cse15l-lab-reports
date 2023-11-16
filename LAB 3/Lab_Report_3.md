@@ -95,14 +95,26 @@ We will explore the command ```less```. Here I will explore 4 different command 
   By using this command line option, ```less``` will ignore case sensitivity during search.<br>
 
    Example 1:<br>
+   The set of commands used are:
+   ```
+   (base) tonyguo@Yutongs-MacBook-Pro 911report % less -i preface.txt
+   /we
+   ```
+   To better show the effect of this command, I also included a screenshot in addition to the code block.
    ![Image](pic6.png)<br>
-   Here we are first using ```less``` on the file preface.txt in 911report directory, then when we use the keyboard shortcut ```/We```. All matching ```We``` are highlighted and our view jumps to the first occurrence of ```We```.<br>
+   Here we are used are first using ```less -i``` on the file preface.txt in 911report directory, then when we use the keyboard shortcut ```/we```. All matching ```we``` ignoring case are highlighted and our view jumps to the first occurrence of ```we```.<br>
    
    Example 2:<br>
+   The set of commands used are:
+   ```
+   (base) tonyguo@Yutongs-MacBook-Pro 911report % less -i preface.txt
+   /terrorist
+   ```
+   To better show the effect of this command, I also included a screenshot in addition to the code block.
    ![Image](pic7.png)<br>
-   Similarly, here we are first using ```less``` on the file preface.txt in 911report directory, then when we use the keyboard shortcut ```/Terrorist```. All matching ```Terrorist```is highlighted, in this case, there is only one occurrence, and our view jumps to the first occurrence of ```Terrorist```, as shown by the first line includes the highlighted word ```Terrorist```.<br>
+   Similarly, here we are first using ```less -i``` on the file preface.txt in 911report directory, then when we use the keyboard shortcut ```/terrorist```. All matching ```terrorist```is highlighted ignoring case, and our view jumps to the first occurrence of ```Terrorist```, as shown by the first line includes the highlighted word ```Terrorist```.<br>
    **Source: This keyboard shortcut is found by using google search prompt "less command line options". Here is a [LINK](https://phoenixnap.com/kb/less-command-in-linux) to the website.**
-6. ```-g``` <br>
+7. ```-g``` <br>
    This command line option has a very interesting interaction with the keyboard shortcut ```/[string]``` above. Remember how using the shortcut ```/[string]``` will highlight all the matching strings? Using ```-g``` command line will highlight only the string last found using search.
 
    Example 1:<br>
