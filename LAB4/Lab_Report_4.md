@@ -16,3 +16,6 @@ Second line keys pressed: bash `<space>` t `<tab>`. To run the bash script, I us
 First set of keys pressed: vim `<space>` L `<tab>` . `<tab>` `<enter>`. For this step, I want to use vim to view and edit the file that has an error. So I first typed `vim`, then I typed L `<tab>` to auto-fill. Since there are two files that started with L, the terminal auto-filled to the part of their name where there is a difference. I then pressed . `<tab>` to specify the file and the terminal auto-filled again.
 ![Image](4.2.png)<br>
 Second set of keys pressed: 44Ger2:wq`<enter>`. Here I am using 44G to move the cursor to line 44 of the file, which is the line we want to edit, then the command `e` will skip to the end of the first word of the line, `r` takes us to replace mode, and `2` makes the edit changing index1 to index2. Then `:wq` is the command we used to save and exit vim. 
+### Step 5
+![Image](5.png)<br>
+Keys pressed: `<up>` `<up>` `<enter>`. Since we called the `bash test.sh` command two lines earlier in the terminal, we can just use `<up>` `<up>` to navigate to the command and run it again. This time, we can see that all tests passed.  
