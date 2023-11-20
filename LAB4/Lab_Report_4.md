@@ -6,5 +6,9 @@ A16269813<br>
 Keys pressed: `Command-V` `<Enter>`. Since the ssh command I had already copied to my clipboard before starting the timer, I just pasted the command in and pressed enter to run.<br>
 ### Step 2
 ![Image](2.png)<br>
-Keys pressed: git`<space>`clone`<space>` `Command-V`. Before taking this step, I navigated to the GitHub repo that I forked and pressed the copy button under the Code->ssh section. The paste command will directly paste the ssh link.
+Keys pressed: git `<space>` clone `<space>` `Command-V`. Before taking this step, I navigated to the GitHub repo that I forked and pressed the copy button under the Code->ssh section. The paste command will directly paste the ssh link.
 ### Step 3
+![Image](3.png)<br>
+First line keys pressed: cd `<space>` l `<tab>` `<Enter>`. After cloning the repository, I first changed the working directory. I did this by using cd command and since there is only one directory that starts with `l`, I used `<tab>` to auto-fill the rest.
+Second line keys pressed: bash `<space>` t `<tab>`. To run the bash script, I used the command `bash` and similarly, there is only one file that starts with `t`, I used t`<tab>` to auto-fill.
+### Step 4
