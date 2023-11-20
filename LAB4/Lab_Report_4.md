@@ -19,3 +19,5 @@ Second set of keys pressed: 44Ger2:wq`<enter>`. Here I am using 44G to move the 
 ### Step 5
 ![Image](5.png)<br>
 Keys pressed: `<up>` `<up>` `<enter>`. Since we called the `bash test.sh` command two lines earlier in the terminal, we can just use `<up>` `<up>` to navigate to the command and run it again. This time, we can see that all tests passed.  
+### Step 6
+![Image](6.png)<br>
