@@ -18,7 +18,7 @@ You’ve made a good observation regarding the common element "c" in both lists 
 Could you insert a few print statements inside the merge method to print out the values of index1 and index2 before and after you expect them to change? Like: `System.out.println("index1: " + index1 + ", index2: " + index2);`. This will help you solve the problem, feel free to reach out for more questions!
 3. **Code after advice**:<br>
 ![Image](test2.png)<br>
-This is what I got from implementing the print statement. I think it is pretty clear what the bug is. The index values index1 and index2 both increase initially, but then `index1` continues to increment without `index2` ever advancing past 1. So the bug is `index1` is incrementing in the while loop that is intended to iterate through `list2`. This causes an infinite loop because `index2`, which controls the iteration over `list2`, never increases past 1, and therefore the condition `ndex2 < list2.size()` remains true, preventing the loop from terminating.
+This is what I got from implementing the print statement. I think it is pretty clear what the bug is. The index values index1 and index2 both increase initially, but then `index1` continues to increment without `index2` ever advancing past 1. So the bug is `index1` is incrementing in the while loop that is intended to iterate through `list2`. This causes an infinite loop because `index2`, which controls the iteration over `list2`, never increases past 1, and therefore the condition `index2 < list2.size()` remains true, preventing the loop from terminating.
 4. **Information about the setup**:
 - The file & directory structure:<br>
 ![Image](structure.png)<br>
