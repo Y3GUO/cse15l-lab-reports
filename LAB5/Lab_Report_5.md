@@ -27,6 +27,7 @@ I have one directory called lab 7, all java files and bash script are located in
 There is one directory inside lab 7 called lib, which contains the files needed for junit tests to be setup. 
 - The contents of each file before fixing the bug:
   - ListExamples.java:
+    
     ```
     import java.util.ArrayList;
     import java.util.List;
@@ -63,6 +64,7 @@ There is one directory inside lab 7 called lib, which contains the files needed 
     }
     ```
   - ListExamplesTest.java
+    
     ```
     import static org.junit.Assert.*;
     import org.junit.*;
@@ -87,16 +89,21 @@ There is one directory inside lab 7 called lib, which contains the files needed 
 
     }
     ```
+    
   - test.sh
+    
     ```
     javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
     java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
     ```
+    
 - The full command line (or lines) you ran to trigger the bug
   The command line I ran was:
+  
   ```
   bash test.sh
   ```
+  
 - A description of what to edit to fix the bug
   There is a type in line 44, which caused the infinite loop. We changed `index1` to `index2` and the bug was fixed.
 
