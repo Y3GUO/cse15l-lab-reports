@@ -1,4 +1,4 @@
-## Lab Report 4
+## Lab Report 5
 Yutong Guo<br>
 A16269813<br>
 ### Part 1
@@ -110,3 +110,6 @@ There is one directory inside lab 7 called lib, which contains the files needed 
 
 ### Part 2
 During the second half of this quarter, I really enjoyed learning about Java Debugger (JDB). Learning how to set breakpoints, step through code, inspect variable values deepened my understanding of the execution flow and has significantly improved my debugging skills. Additionally, becoming more proficient with Vim has streamlined my coding process, and mastering GitHub commands via SSH has made version control and collaboration more secure and efficient.
+
+
+PLEASE NOTE THAT I WROTE ALL CODE IN CODING FORMAT BUT IT IS NOT OBVIOUS WHEN EXPORTED TO PDF!
